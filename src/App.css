@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif !important;
 }
 /* navbar */
 nav{
@@ -97,4 +97,32 @@ cursor: pointer;
     .tsparticles-canvas
 
   } */
+  /* about me */
+  .photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 1px solid #fca311;
+}
+#about-heading {
+  color: #023047;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+
+  }
+}
+
 
