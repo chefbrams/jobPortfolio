@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Rubik', sans-serif !important;
+  
 }
 /* navbar */
 nav{
@@ -211,6 +212,7 @@ background: #8ecae6;
   padding: 0.625rem;
   margin-bottom: 1.875;
   background:#f8f9fa;
+  transition: 0.3s ease-in-out;
 }
 
 .skills .box:hover {
@@ -221,3 +223,108 @@ background: #8ecae6;
   color:#f8f9fa;
 }
 
+/* experience */
+
+.experience-wrapper {
+  position: absolute;
+  padding: 3.125rem;
+  overflow: hidden;
+}
+.experience h1 {
+  color: #012a4a;
+}
+.experience-wrapper:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: #2c7da0;
+
+}
+
+/* portfolio */
+
+.portfolio-wrapper {
+  background:#fb8500;
+  padding: 3rem 0;
+}
+.portfolio-wrapper {
+  color:  #6a040f;
+}
+
+.portfolio-image {
+  width: 15rem;
+  border: 2px solid #6a040f;
+  padding: 0 0.5rem;
+}
+.portfolio-image-box {
+ position: relative;
+ margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: #6a040f;
+  width: 15rem;
+  height: 8rem; 
+  top: 0;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+  }
+
+  .portfolio-icon {
+    position: absolute;
+    opacity: 0;
+    margin-left: -8rem;
+    margin-top: 3.6rem;
+    color: #98c1d9;
+    font-size: 1.5rem;
+  }
+.portfolio-image-box:hover .portfolio-icon {
+opacity: 1;
+transition: 0.3s ease-in-out;
+cursor: pointer;
+}
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: #e85d04;
+}
+.hyper-link:hover {
+  
+  color: green;
+}
+@media(max-width: 768px) {
+.portfolio-image-popupbox {
+  width:100%
+}
+}
+@media(max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100%
+  }
+  .portfolio-image-popupbox {
+    width:50%
+  }
+  }
+@media(max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%
+  }
+  .portfolio-image-popupbox {
+    width:30%
+  }
+  }

@@ -16,11 +16,11 @@ const AboutMe = () => {
           <div className="info-wrap mb-5 ">
             <p>
               Hello, my name is Allan, and I'm a full stack developer. I was
-              formally an executive culinary chef who decided to make a career
+              formerly an executive culinary chef who decided to make a career
               switch after having to shut down my business due to the pandemic.
-              I recently graduated from a 6 month bootcamp style program at The
+              I recently graduated from a 6 month boot-camp style program at The
               George Washington University. There I learned the MERN stack and
-              have become proficent with Vanilla JavaScript. I continue this
+              have become proficient with Vanilla JavaScript. I continue this
               path of education as I embark on a new career in software
               engineering by continuing to build projects, watch tutorials, and
               take more online classes. I am currently learning disciplines such
