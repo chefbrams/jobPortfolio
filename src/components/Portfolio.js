@@ -84,6 +84,14 @@ const Portfolio = () => {
           https://github.com/chefbrams/budgetTracker
         </a>{" "}
         <br />
+        
+        <b>Deployed Site:</b>{" "}
+        <a
+          className="hyper-link"
+          onClick={() => window.open("https://sleepy-retreat-09837.herokuapp.com/ ","_blank")}
+        >
+         https://sleepy-retreat-09837.herokuapp.com/
+        </a>
       </>
     );
     PopupboxManager.open({ content });

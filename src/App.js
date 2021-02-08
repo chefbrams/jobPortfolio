@@ -1,5 +1,5 @@
 import './App.css';
-import "jquery/dist/jquery.min.js";
+import $ from "jquery";
 import Popper from "popper.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
@@ -8,6 +8,7 @@ import Particles from 'react-particles-js';
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 function App() {
   return (
     <>
@@ -37,6 +38,7 @@ function App() {
     <AboutMe />
     <Skills />
     <Portfolio />
+    <Contact />
     </>
     
   );
