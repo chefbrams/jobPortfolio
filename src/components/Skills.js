@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faJsSquare, faCss3Alt, faReact } from "@fortawesome/free-brands-svg-icons";
 const Skills = () => {
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <h1 className="py-5">Skills</h1>
         <div className="container">
           <div className="row">

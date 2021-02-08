@@ -24,7 +24,7 @@ cursor: pointer;
   color:white;
   cursor: pointer;
 }
-.navbar-nav >  li >  a.active, .navbar-nav >  li >  a.active:focus {
+.navbar-nav >  li >  a.active, .navbar-nav >  li >  a:focus {
   border-top: 0.16rem solid var(--primary-orange);
 }
 .navbar-nav >  li >  a:hover {
@@ -37,7 +37,7 @@ cursor: pointer;
   background: url(web-dev.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 .main-info {
   display: flex;
@@ -429,5 +429,26 @@ textarea.form-control {
   background:green;
 }
 
+/* Footer */
+
+.footer{
+  background: black;
+  color: slategray;
+  padding: 2rem;
+}
+.footer a {
+  text-decoration: none;
+  color: slategray;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #4cc9f0;
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
+}
 
 

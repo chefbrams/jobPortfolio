@@ -2,7 +2,7 @@ import React from "react";
 import Allan from "../allan.jpeg";
 const AboutMe = () => {
   return (
-      <div className="aboutMe">
+      <div id="aboutMe" className="aboutMe">
     <div className="container">
       <div className="row">
         <div className="col">
