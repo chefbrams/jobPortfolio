@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/jobPortfolio/static/css/main.89e28e96.chunk.css",
-    "main.js": "/jobPortfolio/static/js/main.0b0fcbcb.chunk.js",
-    "main.js.map": "/jobPortfolio/static/js/main.0b0fcbcb.chunk.js.map",
-    "runtime-main.js": "/jobPortfolio/static/js/runtime-main.a1870177.js",
-    "runtime-main.js.map": "/jobPortfolio/static/js/runtime-main.a1870177.js.map",
+    "main.js": "/jobPortfolio/static/js/main.4be3eb3b.chunk.js",
+    "main.js.map": "/jobPortfolio/static/js/main.4be3eb3b.chunk.js.map",
+    "runtime-main.js": "/jobPortfolio/static/js/runtime-main.f28c43e2.js",
+    "runtime-main.js.map": "/jobPortfolio/static/js/runtime-main.f28c43e2.js.map",
     "static/css/2.a894a7ba.chunk.css": "/jobPortfolio/static/css/2.a894a7ba.chunk.css",
-    "static/js/2.956b42e0.chunk.js": "/jobPortfolio/static/js/2.956b42e0.chunk.js",
-    "static/js/2.956b42e0.chunk.js.map": "/jobPortfolio/static/js/2.956b42e0.chunk.js.map",
-    "static/js/3.ba771fd3.chunk.js": "/jobPortfolio/static/js/3.ba771fd3.chunk.js",
-    "static/js/3.ba771fd3.chunk.js.map": "/jobPortfolio/static/js/3.ba771fd3.chunk.js.map",
+    "static/js/2.a2bb7931.chunk.js": "/jobPortfolio/static/js/2.a2bb7931.chunk.js",
+    "static/js/2.a2bb7931.chunk.js.map": "/jobPortfolio/static/js/2.a2bb7931.chunk.js.map",
+    "static/js/3.347264fe.chunk.js": "/jobPortfolio/static/js/3.347264fe.chunk.js",
+    "static/js/3.347264fe.chunk.js.map": "/jobPortfolio/static/js/3.347264fe.chunk.js.map",
     "index.html": "/jobPortfolio/index.html",
     "static/css/2.a894a7ba.chunk.css.map": "/jobPortfolio/static/css/2.a894a7ba.chunk.css.map",
     "static/css/main.89e28e96.chunk.css.map": "/jobPortfolio/static/css/main.89e28e96.chunk.css.map",
-    "static/js/2.956b42e0.chunk.js.LICENSE.txt": "/jobPortfolio/static/js/2.956b42e0.chunk.js.LICENSE.txt",
+    "static/js/2.a2bb7931.chunk.js.LICENSE.txt": "/jobPortfolio/static/js/2.a2bb7931.chunk.js.LICENSE.txt",
     "static/media/allan.2cde8b4c.jpeg": "/jobPortfolio/static/media/allan.2cde8b4c.jpeg",
     "static/media/budget.08ecb9bc.png": "/jobPortfolio/static/media/budget.08ecb9bc.png",
     "static/media/fitness.3dc7dac7.png": "/jobPortfolio/static/media/fitness.3dc7dac7.png",
     "static/media/run4.67f87d41.png": "/jobPortfolio/static/media/run4.67f87d41.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1870177.js",
+    "static/js/runtime-main.f28c43e2.js",
     "static/css/2.a894a7ba.chunk.css",
-    "static/js/2.956b42e0.chunk.js",
+    "static/js/2.a2bb7931.chunk.js",
     "static/css/main.89e28e96.chunk.css",
-    "static/js/main.0b0fcbcb.chunk.js"
+    "static/js/main.4be3eb3b.chunk.js"
   ]
 }
